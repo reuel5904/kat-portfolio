@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Kota | 2022</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="nav__header">
+        <nav class="sidenav" id="mySidenav">
+            <i class="fas fa-times closeBtn" onclick="closeNav()"></i>
+            <div class="personal-logo">
+                <a href="index.html" class="">
+                    <img src="assets/logos/logo in color without text.png" alt="Kota Logo" class="logo">
+                </a>
+            </div>
+            <ul class="sidenav__link--list">
+                <li class="sidenav__link">
+                    <a href="#" class="sidenav__link--anchor link__hover-effect">About</a>
+                </li>
+                <li class="sidenav__link">
+                    <a href="environments.html" class="sidenav__link--anchor link__hover-effect">Environments</a>
+                </li>
+                <li class="sidenav__link">
+                    <a href="photography.html" class="sidenav__link--anchor link__hover-effect">Photography</a>
+                </li>
+                <li class="sidenav__link">
+                    <a href="index.html" class="sidenav__link--anchor link__hover-effect">Contact</a>
+                </li>
+                <li class="sidenav__link">
+                    <a href="" class="sidenav__link--anchor link__hover-effect"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="banner">
+                <span class="openMobileContainer">
+                    <i class="fas fa-bars openMobile" onclick="openNav()"></i>
+                </span>
+            </div>
+            <div class="flex flex-1">
+                <div class="about-me-info row">
+                    <div class="about-me-information-container">
+                        <figure class="about-me-picture-mask">
+                            <img src="assets/logos/PFP.png" class="about-me-picture" alt="Picture of Me">
+                        </figure>
+                        <h1 class="about-me-info-title"><span class="text-red">Kota</span><span class="hat">&nbsp;👒</span></h1>
+                        <p class="about-me-info-para">Kota is currently a student studying <strong class="text-red">Animation</strong> at the <i>Savannah College of Art and Design</i>. She enjoys working on environments, character work and occasional floral photography.</p>
+                        <div class="about-me-links">
+                            <a href="https://www.instagram.com/kota.lemon/" class="social__link instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:kota.sch@gmail.com" class="social__link mail"><i class="far fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
